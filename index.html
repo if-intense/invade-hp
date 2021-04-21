@@ -10,6 +10,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <title>株式会社インベード | INVADE Co., Ltd.</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://use.fontawesome.com/5c2738e24d.js"></script>
   <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
@@ -18,27 +19,44 @@
   <script>
     $(document).ready(function(){
 
-      var $grid = $('.grid').isotope({
-  // options
-  itemSelector: '.grid-item',
-  layoutMode: 'fitRows',
-});
+          var $grid = $('.grid').isotope({
+      // options
+      itemSelector: '.grid-item',
+      layoutMode: 'fitRows',
+    });
 
-// change is-checked class on buttons
-var $buttonGroup = $('.filters');
-$buttonGroup.on( 'click', 'li', function( event ) {
-  $buttonGroup.find('.is-checked').removeClass('is-checked');
-  var $button = $( event.currentTarget );
-  $button.addClass('is-checked');
-  var filterValue = $button.attr('data-filter');
-  $grid.isotope({ filter: filterValue });
-});
+    // change is-checked class on buttons
+    var $buttonGroup = $('.filters');
+    $buttonGroup.on( 'click', 'li', function( event ) {
+      $buttonGroup.find('.is-checked').removeClass('is-checked');
+      var $button = $( event.currentTarget );
+      $button.addClass('is-checked');
+      var filterValue = $button.attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+    });
 
-});
-  </script>  
+    });
+  </script> 
+  
+  <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $(".scroll-down").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 700, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+    </script>
   
   
-  <title>株式会社インベード | INVADE Co., Ltd.</title>
+  
   <script>
      $(document).ready(function() {
             $(".menu-icon").on("click", function() {
@@ -106,8 +124,9 @@ $buttonGroup.on( 'click', 'li', function( event ) {
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="fade-up">
-      <h1>インベード株式会社</h1>
-      <a href="#business" class="btn-get-started scrollto"><i class="fas fa-chevron-down"></i></a>
+      <h1>INVADE
+        <br>インベード株式会社</h1>
+      <a href="#business" class="btn-get-started scrollto scroll-down"><i class="fas fa-chevron-down"></i></a>
     </div>
   </section><!-- End Hero -->
 
@@ -503,7 +522,7 @@ $buttonGroup.on( 'click', 'li', function( event ) {
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Invade Co. Ltd</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>INVADE Co. Ltd</span></strong>. All Rights Reserved
       </div>
 
     </div>
