@@ -170,9 +170,6 @@
 /* clear fix */
 /* ui group */
 /* color-shape */
-html {
-  scroll-behavior: smooth; }
-
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444; }
@@ -239,11 +236,14 @@ header {
   line-height: 60px;
   position: fixed;
   float: left;
-  margin: 16px 46px;
+  margin: 6px 20px;
   color: #000;
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 2px; }
+
+.logo img {
+  width: 120px; }
 
 .contact-nav {
   background: #9DE7D7; }
@@ -503,7 +503,7 @@ nav.black ul {
 --------------------------------------------------------------*/
 #hero {
   padding-top: 51.04%;
-  background: grey;
+  background: gray;
   background-size: cover;
   position: relative;
   margin-bottom: -90px; }
@@ -550,6 +550,11 @@ nav.black ul {
       padding-top: 8px;
       background: rgba(255, 255, 255, 0.15); }
 
+@media (max-width: 768px) {
+  #hero {
+    padding-top: 70%; }
+    #hero .hero-container {
+      margin-top: 10vh; } }
 /*--------------------------------------------------------------
 # hero
 --------------------------------------------------------------*/
@@ -737,11 +742,12 @@ section {
     font-size: 0.75em; }
 
 .about-table table th {
-  width: 20%;
-  padding: 20px 0;
+  width: 30%;
+  padding: 20px;
   text-align: center; }
 .about-table table td {
-  text-align: center; }
+  text-align: center;
+  width: 70%; }
 
 .portfolio .portfolio-item {
   margin-bottom: 30px; }
@@ -1061,19 +1067,18 @@ section {
   .logo {
     position: fixed;
     top: 0;
-    margin-top: 16px;
     color: #fff; }
 
   nav ul {
     max-height: 0px;
-    background: #000; }
+    background: #fff; }
     nav ul li {
       box-sizing: border-box;
       width: 100%;
       padding: 24px;
       text-align: center; }
       nav ul li a {
-        color: white; }
+        color: #000; }
 
   nav.black ul {
     background: #000; }
@@ -1083,7 +1088,7 @@ section {
 
   .menu-icon {
     display: block;
-    background: #000; } }
+    background: #fff; } }
 @media (max-width: 1366px) {
   .nav-menu .drop-down .drop-down ul {
     left: -90%; }
