@@ -1349,7 +1349,7 @@ section {
   }
   nav.black {
     ul {
-      background: #000;
+      background: #fff;
     }
   }
   .showing {
@@ -1411,6 +1411,13 @@ section {
   }
 }
 @media (max-width: 575px) {
+  .about-table {
+    table {
+      font-size:0.8em;
+    }
+  }
+  
+  
   #footer {
     .footer-top {
       .footer-info {

@@ -1081,7 +1081,7 @@ section {
         color: #000; }
 
   nav.black ul {
-    background: #000; }
+    background: #fff; }
 
   .showing {
     max-height: 34em; }
@@ -1115,6 +1115,9 @@ section {
     .breadcrumbs ol li {
       display: inline-block; } }
 @media (max-width: 575px) {
+  .about-table table {
+    font-size: 0.8em; }
+
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0; } }
 .filters ul {
