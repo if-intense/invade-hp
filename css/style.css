@@ -729,6 +729,38 @@ section {
   .project-a a {
     font-size: 1em; }
 
+.project-page-title h2 {
+  padding-left: 20px;
+  border-left: 10px #9DE7D7 solid; }
+
+.project-b {
+  margin: 3vh auto 4vh;
+  background: #F5F5F5;
+  box-shadow: 3px 6px 20px rgba(0, 0, 0, 0.3); }
+  .project-b p {
+    font-size: 16px;
+    line-height: 2em; }
+  .project-b h3 {
+    font-size: 1.5em; }
+  .project-b h4 {
+    font-size: 1.25em;
+    color: #a2a2a2; }
+  .project-b a {
+    font-size: 1em; }
+  .project-b h5 {
+    margin-top: 3vh; }
+
+.previous-page a {
+  background: #9DE7D7;
+  padding: 20px 30px;
+  border-radius: 3px;
+  text-decoration: none; }
+  .previous-page a span {
+    color: #000; }
+.previous-page a:hover {
+  font-weight: bold;
+  text-decoration: none; }
+
 .centered-box {
   width: 52%;
   max-width: 1000px;
@@ -992,6 +1024,8 @@ section {
           line-height: 1; }
           #footer .footer-top .footer-links ul a:hover {
             color: #a2cfe3; }
+          #footer .footer-top .footer-links ul a i {
+            font-size: 0.8em; }
     #footer .footer-top .footer-newsletter form {
       margin-top: 30px;
       background: #fff;
