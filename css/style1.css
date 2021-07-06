@@ -1031,6 +1031,9 @@ section {
   margin: 20px auto;
   font-size: 24px;
 }
+.kamisma .cta1 .center img {
+  padding: 20px 30px;
+}
 .kamisma .cta1 .button-area {
   box-shadow: 4px 8px 13px rgba(0, 0, 0, 0.22);
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4)), url(../image/kamisma-about/4964195.jpg);
