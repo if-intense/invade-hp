@@ -1025,7 +1025,7 @@ section {
         padding:80px 0;
         h4 {
             color: rgb(255,255,255);
-            margin:3vh 0;
+            margin:3vh 0 2vh;
         }
         h5 {
             color: rgb(255,255,255);
@@ -1064,10 +1064,19 @@ section {
                     font-size:32px;
                     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
                 }
+				.silver {
+                    color: rgb(143,130,100);
+					text-shadow:1px 1px 3px rgb(255,255,255);
+                    background: black;
+					background:linear-gradient( to bottom, rgb(192,192,192),#cdcdcd, rgb(192,192,192));
+                    font-weight:bolder;
+                    font-size:32px;
+                    font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+                }
             }
 			.what-is {
 				text-align:left;
-				font-size:0.8em;
+				font-size:1.1em;
 				margin-top:10px;
 			}
         }
@@ -1120,6 +1129,8 @@ section {
             h3 {
                 font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 				text-align: center;
+				margin-bottom:3vh;
+				margin-top:20px;
 			}
             .text {
                 ul {
@@ -1150,14 +1161,14 @@ section {
     }
 
     .cta3 {
-        background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../image/kamisma-about/lineup.png);
+        background: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.8)), url(../image/kamisma-about/lineup.png);
         background-position:center;
         background-size:cover;
         padding:100px 0;
         font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         h4 {
-            color:white;
-            line-height:1.5em;
+            color:black;
+            line-height:2em;
         }
     }
 
@@ -1167,7 +1178,7 @@ section {
         h4 {
             font-size:1.5em;
             color:white;
-            line-height:1.5em;
+            line-height:2em;
             font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
         }
     }

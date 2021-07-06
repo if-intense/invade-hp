@@ -978,7 +978,7 @@ section {
 }
 .kamisma .about h4 {
   color: white;
-  margin: 3vh 0;
+  margin: 3vh 0 2vh;
 }
 .kamisma .about h5 {
   color: white;
@@ -1019,9 +1019,18 @@ section {
   font-size: 32px;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
+.kamisma .mini-section .centered .-within .silver {
+  color: #8f8264;
+  text-shadow: 1px 1px 3px white;
+  background: black;
+  background: linear-gradient(to bottom, silver, #cdcdcd, silver);
+  font-weight: bolder;
+  font-size: 32px;
+  font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
 .kamisma .mini-section .centered .what-is {
   text-align: left;
-  font-size: 0.8em;
+  font-size: 1.1em;
   margin-top: 10px;
 }
 .kamisma .cta1 {
@@ -1070,6 +1079,8 @@ section {
 .kamisma .cta2 .centered h3 {
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
   text-align: center;
+  margin-bottom: 3vh;
+  margin-top: 20px;
 }
 .kamisma .cta2 .centered .text ul {
   list-style-type: none;
@@ -1093,15 +1104,15 @@ section {
   font-size: 1.5em;
 }
 .kamisma .cta3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/kamisma-about/lineup.png);
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8)), url(../image/kamisma-about/lineup.png);
   background-position: center;
   background-size: cover;
   padding: 100px 0;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 .kamisma .cta3 h4 {
-  color: white;
-  line-height: 1.5em;
+  color: black;
+  line-height: 2em;
 }
 .kamisma .cta4 {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), #080808;
@@ -1110,7 +1121,7 @@ section {
 .kamisma .cta4 h4 {
   font-size: 1.5em;
   color: white;
-  line-height: 1.5em;
+  line-height: 2em;
   font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 .kamisma .cta5 {
