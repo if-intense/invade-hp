@@ -983,6 +983,10 @@ section {
 .kamisma .about h5 {
   color: white;
 }
+.kamisma .about .img {
+  width: 40%;
+  margin: 0 auto;
+}
 .kamisma .mini-section {
   margin: 5vh auto;
   box-shadow: 1px 3px 6px black;
@@ -1033,6 +1037,7 @@ section {
 }
 .kamisma .cta1 .center img {
   padding: 20px 30px;
+  margin: 40px 0;
 }
 .kamisma .cta1 .button-area {
   box-shadow: 4px 8px 13px rgba(0, 0, 0, 0.22);
@@ -1239,6 +1244,9 @@ section {
 
   .kamisma .about {
     padding: 80px 30px;
+  }
+  .kamisma .about .img {
+    width: 85%;
   }
   .kamisma .mini-section {
     margin-left: 20px;

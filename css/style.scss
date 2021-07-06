@@ -1030,6 +1030,10 @@ section {
         h5 {
             color: rgb(255,255,255);
         }
+		.img {
+			width:40%;
+			margin: 0 auto;
+		}
     }
     .mini-section {
         margin:5vh auto;
@@ -1080,6 +1084,7 @@ section {
             }
 			img {
 				padding:20px 30px;
+				margin:40px 0; 
 			}
         }
         .button-area {
@@ -1334,6 +1339,9 @@ section {
 	.kamisma {
 		.about {
 			padding: 80px 30px;
+			.img {
+				width:85%;
+			}
 		}
 		.mini-section {
 			margin-left: 20px;
